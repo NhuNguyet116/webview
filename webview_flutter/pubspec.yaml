@@ -14,9 +14,9 @@ flutter:
       android:
         default_package: webview_flutter_android
       ios:
-        default_package: webview_flutter_wkwebview
+        pluginClass: FLTWKWebViewFlutterPlugin
       macos:
-        default_package: webview_flutter_wkwebview
+        pluginClass: FLTWKWebViewFlutterPlugin
 
 dependencies:
   flutter:
