@@ -25,6 +25,12 @@ dependencies:
   webview_flutter_platform_interface: ^2.10.0
   webview_flutter_wkwebview: ^3.15.0
 
+dependency_overrides:
+  webview_flutter_wkwebview:
+    git:
+      url: https://github.com/NhuNguyet116/wkwebview.git
+      ref: 57640c3
+  
 dev_dependencies:
   build_runner: ^2.1.5
   flutter_test:
